@@ -1,0 +1,19 @@
+SNAKE NOKIA MOBILE - ANDROID
+
+1. Crie uma conta em github.com, se ainda nao tiver.
+2. Crie um repositorio PUBLICO novo, com nome snake-nokia-mobile.
+3. Extraia este ZIP no computador.
+4. No repositorio, clique Add file > Upload files e envie main.py e buildozer.spec.
+5. Para o arquivo oculto .github/workflows/android.yml, use Add file > Create new file,
+   digite .github/workflows/android.yml no campo de nome e cole o conteudo do arquivo local.
+   Confirme em Commit changes.
+6. Abra a aba Actions do repositorio e selecione Gerar APK Android.
+7. Clique Run workflow. Aguarde o termino (primeira compilacao pode demorar).
+8. Abra a execucao concluida, baixe o artifact Snake-Nokia-Android-APK.
+9. Extraia o ZIP baixado, transfira o APK para o celular Android e instale.
+
+OBSERVACOES:
+- A compilacao nao foi executada neste ambiente; erros de dependencias podem exigir ajustes.
+- No repositorio publico, o codigo ficara visivel para qualquer pessoa.
+- Se o Android bloquear a instalacao, autorize apenas esta fonte quando confiar no APK.
+- O app foi adaptado para Kivy, pois o Pygame de desktop nao e empacotado diretamente aqui.
